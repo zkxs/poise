@@ -24,6 +24,8 @@ indexmap = "2.2.6"
 default-features = false
 features = ["builder", "client", "gateway", "model", "utils", "collector", "framework"]
 version = "0.12.2"
+git = "https://github.com/zkxs/serenity.git" # forked from https://github.com/serenity-rs/serenity 0.12.4
+branch = "current"
 
 [dev-dependencies]
 # For the examples
