@@ -1380,8 +1380,9 @@ dependencies = [
 
 [[package]]
 name = "serenity"
-version = "0.12.4"
-source = "git+https://github.com/zkxs/serenity.git?branch=current#5f2133e167f88325e71f576e4cb85575dcd11a58"
+version = "0.12.2"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "880a04106592d0a8f5bdacb1d935889bfbccb4a14f7074984d9cd857235d34ac"
 dependencies = [
  "arrayvec",
  "async-trait",
