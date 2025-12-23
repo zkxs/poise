@@ -10,6 +10,8 @@ pub fn find_modal_text(
     data: &mut serenity::ModalInteractionData,
     custom_id: &str,
 ) -> Option<String> {
+    unimplemented!()
+    /*
     for row in data.components.iter_mut() {
         let text = match row.components.get_mut(0) {
             Some(serenity::ActionRowComponent::InputText(text)) => text,
@@ -36,6 +38,7 @@ pub fn find_modal_text(
         custom_id
     );
     None
+    */
 }
 
 /// Underlying code for the modal spawning convenience function which abstracts over the kind of
